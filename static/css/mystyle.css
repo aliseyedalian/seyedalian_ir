@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 
+
 *{
   margin: 0;
   padding: 0;
@@ -11,7 +12,7 @@
 }
 
 body{
-   background-color: #ffffff;
+  background-color:rgba(131, 188, 40, 0.5);
 }
 
 .wrapper{
@@ -47,32 +48,28 @@ body{
   text-align: center;
   margin-bottom: 30px;
 }
-.sidebar :hover h2{
+.sidebar h2:hover {
     color: rgb(255, 255, 0);
   }
 
-.sidebar ul li{
-  padding: 15px;
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-  border-top: 1px solid rgba(255,255,255,0.05);
-}    
 
-.sidebar ul li a{
-  color: #bdb8d7;
-  display: block;
-}
-
-.sidebar ul li a .fas{
-  width: 25px;
-}
-
-.sidebar ul li:hover{
-  background-color: #a8da10;
+.sidebar ul a{
+    padding: 15px;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    color: #bdb8d7;
+    display: block;
+  }    
+    
+.sidebar ul a:hover{
+    background-color: #a8da10;
+    color: #000;
+  }
+      
+.sidebar ul .fas{
+    width: 25px;
 }
     
-.sidebar ul li:hover a{
-  color: rgb(6, 4, 4);
-}
+
  
 .social_media{
   position: absolute;
