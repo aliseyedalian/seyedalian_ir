@@ -1,10 +1,22 @@
 {% extends 'base.html' %}
 
-{% block header %}
+{% block headtitle %}
     
 {% endblock %}
 
 {% block info %}
-<br><br><br>
-    <h1>Welcome to my personal weblog! </h1>
+<br><br><br><br><br>
+    <h1> Welcome To My Weblog! </h1>
+    <br>
+    <p>I'm an M.Sc student at <a href="https://ut.ac.ir/en">University of Tehran</a>,
+        and currently I work at <a href="http://dbrg.ut.ac.ir">DBRG Lab</a> as a research assistant under
+        the supervision of <a href="http://dbrg.ut.ac.ir/team-tick-the-theme/">Dr.Rahgozar</a>.
+        I am mainly interested in Data Science, Complex Networks Analysis, Machine Learning and Deep Learning.
+        Check out my resume at <a href="{% url 'resume' %}">here</a>.
+    </p>
+    <br>
+    <p>Quick links:<a href="https://telegram.me/saseyedalian">Telegram</a>,
+        <a href="mailto: seyedalian@ut.ac.com">Email</a>,
+        <a href="https://www.linkedin.com/in/s-a-seyedalian-9646461bb/">Linkedin</a>,
+        <a href="https://github.com/sedaliSedalian">Github</a></p>
 {% endblock %}

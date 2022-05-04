@@ -6,6 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}"/>
     <link rel="stylesheet" href="{% static 'css/mystyle.css' %}">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
     <title>S.A.Seyedalian</title>
@@ -17,20 +18,20 @@
             <img src="{% static 'images/me11.jpeg' %}" alt="">
             <a href="{% url 'home' %}"><h2>S.A.Seyedalian</h2></a>
             <ul>
-                <a href="{% url 'about' %}"><li><i class="fas fa-address-card"></i> About Me</li></a>
-                <a href="{% url 'blogs' %}"><li><i class="fas fa-blog"></i> Blogs</li></a>
-                <a href="{% url 'resume' %}"><li><i class="fas fa-file-pdf"></i> Resume</li></a>
+              <a href="{% url 'home' %}"><li><i class="fas fa-home"></i> Home</li></a>
+              <a href="{% url 'blogs' %}"><li><i class="fas fa-blog"></i> Blogs</li></a>
+              <a href="{% url 'resume' %}"><li><i class="fas fa-file-pdf"></i> Resume</li></a>
             </ul> 
             <div class="social_media">
               <a href="https://telegram.me/saseyedalian"><i class="fab fa-telegram"></i></a>
-              <a href="mailto: s.ali.seyedalian@gmail.com"><i class="fa fa-envelope"></i></a>
+              <a href="mailto: seyedalian@ut.ac.com"><i class="fa fa-envelope"></i></a>
               <a href="https://www.linkedin.com/in/s-a-seyedalian-9646461bb/"><i class="fab fa-linkedin"></i></a>
               <a href="https://github.com/sedaliSedalian"><i class="fab fa-github"></i></a>
           </div>
         </div>
         <div class="main_content">
-            <div class="header">
-                {% block header %}
+            <div class="headtitle">
+                {% block headtitle %}
 
                 {% endblock %}
             </div>  
